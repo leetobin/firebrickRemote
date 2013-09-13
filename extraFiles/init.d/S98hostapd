@@ -1,0 +1,17 @@
+#! /bin/sh
+#
+
+case "$1" in
+	start|"")
+		hostapd -B /etc/hostapd/hostapd.conf
+		;;
+	stop)
+
+		;;
+	restart|reload)
+		
+		;;
+	*)
+		exit 1
+		;;
+esac

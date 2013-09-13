@@ -1,0 +1,1 @@
+qemu-system-x86_64 -bios /home/lee/firebrick/emuboot/build/coreboot.rom -curses

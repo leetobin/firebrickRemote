@@ -1,0 +1,30 @@
+#!/bin/sh
+#
+# Edited by Lee
+#
+
+case "$1" in
+	start)
+		echo -n "Starting DHCP server: "
+		start-stop-daemon -S -x /usr/sbin/udhcpd
+		echo "."
+		;;
+	stop)
+		echo -n "Stopping DHCP server"
+		start-stop-daemon -K -x /usr/sbin/udhcpd
+		echo "."
+		;;
+	restart | force-reload)
+		$0 stop
+		sleep 2
+		$0 start
+		if [ "$?" != "0" ]; then
+			exit 1
+		fi
+		;;
+	*)
+		echo "Usage: /etc/init.d/dhcp-server {start|stop|restart|force-reload}"
+		exit 1 
+esac
+
+exit 0
