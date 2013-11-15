@@ -27,7 +27,8 @@ To build a FIREBrick you need:
 *WiFi dongle - we are using a Belkin N150 http://www.belkin.com/us/F7D1102-Belkin/p/P-F7D1102
 *E-MINI series 3016 case - http://www.minicase.net/product_E-3016.html
 
-Note: If you want to use RAID storage, you will also need two equal-sized HDDs. 
+Note: If you want to use RAID storage, you will also need two equal-sized HDDs. This version requires a USB key to operate.
+We are working to make the bzImage fit on BIOS now, so stay tuned!
 
 For more info visit http://digitalfire.ucd.ie/?page_id=1011
 
@@ -65,8 +66,6 @@ Build coreboot with the firebrick kernel+filesystem as payload
 
 To use FIREBrick OS:
 ---
-
-You can create a bootable USB device with the FIREBrick OS on it. That way you can use it to flash your BIOS (if it fits in the BIOS chip! Otherwise you'll have to use the USB key).
 
 1. Create a bootable USB.
 Syslinux works well for this: http://www.syslinux.org/wiki/index.php/The_Syslinux_Project
