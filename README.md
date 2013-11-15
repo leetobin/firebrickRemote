@@ -80,7 +80,7 @@ Install syslinux to your key and create a simple config file like this one:
 			linux /bzImage
 
 2. Copy the bzImage and coreboot.rom files from the repo to your USB key.
-https://github.com/leetobin/firebrickRemote/master/buildroot/output/images/bzImage
+https://github.com/leetobin/firebrickRemote/blob/master/buildroot/output/images/bzImage
 
 3. Boot into the FIREBrick OS, using the USB key.
 
