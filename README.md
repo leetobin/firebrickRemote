@@ -30,3 +30,8 @@ Belfield, Dublin 4, Ireland
 
 dfire@ucd.ie
 @dfirelabs
+
+
+Disclaimer:
+--
+This system is in development, any loss of data/evidence or any related problems are not the fault of this project or DigialFIRE. We're confident in this project, but we're only human. Also, we're adding functionality to the FIREBrick all the time, so again, test your FIREBrick lots (particularly if you've developed new functionality).
