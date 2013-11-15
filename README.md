@@ -19,8 +19,8 @@ For more info visit http://digitalfire.ucd.ie/?page_id=1011
 
 Lee Tobin - leetobin@gmail.com
 
-Address 
-Floor 1, Complex and Adaptive Systems Laboratory, University College Dublin.
+Address
+*Floor 1, Complex and Adaptive Systems Laboratory, University College Dublin.
 
 dfire@ucd.ie
 @dfirelabs
